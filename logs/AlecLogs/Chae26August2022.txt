@@ -1,5 +1,0 @@
-Log for week 1: Aug 22 - Aug 26
-
-3 hours : Refreshing memories from where i left off 4months ago
-
-3 hours : Trying to figure out how to move forward and researching mongoDB functions

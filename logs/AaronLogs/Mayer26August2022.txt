@@ -1,1 +1,0 @@
-August 24th: Spent a couple of hours refreshing my memory on content recommendation algorithms along with the code I wrote last semester
