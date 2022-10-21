@@ -10,6 +10,19 @@ div {text-align: center;}
 <h2>Scott Kenner's Logs</h2>
         <hr size="2" width="100%" color="black">  
 </hr>
+    <h5>Week of October 21st Log</h5>
+    <pre>
+Finished creating the .exe file for the server/desktop application, and created the initial draft of the user guide (Installation, basic use, and legal)
+though legal was removed since the professor clarified it wasnt nessesary. Overall spent ~12 hours on this project this week, mainly working through
+pytorch not properly bundling in the py2exe and pyinstaller compilation (look at this command to compile the .exe! monsterous, thank goodness for stack overflow)
+
+pyinstaller --onefile --hidden-import=pytorch --collect-data torch --copy-metadata torch --copy-metadata tqdm --copy-metadata regex --copy-metadata sacremos es --copy-metadata requests --copy-metadata packaging --copy-metadata filelock --copy-metadata numpy --copy-metadata tokenizers --copy-metadata importlib_metadata --hidden-import="sklearn.utils._cython_blas" --hidden-import="sklearn.neighbors.typedefs" --hidden-import="sklearn.neighbors.quad_tree" --hidden-import="sklearn.tree" --hidden-import="sklearn.tree._utils" main.py
+
+
+    </pre>
+
+        <hr size="2" width="100%" color="black">  
+</hr>
     <h5>Week of October 7th Log</h5>
     <pre>
 Worked on reformatting the WMR and getting pyinstall to work to create a .msi file to launch the server/desktop app for feature P2
